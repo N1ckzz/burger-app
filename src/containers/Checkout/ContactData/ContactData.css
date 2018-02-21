@@ -7,13 +7,6 @@
     box-sizing: border-box;
 }
 
-.Input {
-    display: block;
-    width: 100%;
-    text-align: center;
-    font-size: 14px;
-}
-
 @media(min-width: 600px) {
     .ContactData {
         width: 500px;
