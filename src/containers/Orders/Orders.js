@@ -37,7 +37,7 @@ class Orders extends Component {
             order = [];
             const orders = this.state.orders;
             for (let key in orders ) {
-                order.push(<Order key={key} totalPrice={orders[key].totalPrice} ingredients={orders[key].ingredients}/>);
+                order.push(<Order key={key} totalPrice={+orders[key].totalPrice} ingredients={orders[key].ingredients}/>);
             }
         }
         return (
